@@ -8,7 +8,9 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'Welcome',
+      template: "./src/index.html",
+      filename: "./index.html"
     }),
   ],
   output: {
@@ -47,6 +49,13 @@ module.exports = {
           dynamicTyping: true,
           header: true,
           skipEmptyLines: true
+        }
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader"
         }
       },
     ],
