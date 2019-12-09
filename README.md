@@ -1,2 +1,2 @@
 # React Template
-A template for building a react app, setup with Webpack and processors for handling .csv files.
+A template for building a react app, setup with Webpack and processors for handling .csv files, images, and fonts.
