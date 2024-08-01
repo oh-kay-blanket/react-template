@@ -1,4 +1,7 @@
+# Misc
 /dist
 /node_modules
+
+# Local files
 **/.DS_Store
 .DS_Store
