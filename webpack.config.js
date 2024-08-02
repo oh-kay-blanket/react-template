@@ -20,7 +20,8 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     static: './',
-    host: '0.0.0.0'
+    host: '0.0.0.0',
+	open: true
   },
   module: {
     rules: [
